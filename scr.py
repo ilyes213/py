@@ -15,6 +15,6 @@ def inject_payload(app_package_name, payload_path):
 
 # استخدام مثالي:
 app_package_name = "com.dotgears.flappybird"
-payload_path = "/1.apk"
+payload_path = "/py/1.apk"
 result = inject_payload(app_package_name, payload_path)
 print(result)
